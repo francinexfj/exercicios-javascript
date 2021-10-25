@@ -51,6 +51,13 @@ console.log(fatorial);
 
 // 7 Criar uma função para calcular a porcentagem de um número
 
+function calcularPorcentagem(numero, porcentagem){
+	var resultado = numero * porcentagem / 100;
+	console.log(resultado);
+}
+
+calcularPorcentagem(100, 20);
+
 // 8 Calcular a soma dos números impares maiores que 10 e menores que 30
 
 // 9 Criar uma função que converta uma temperatura de Celsius para Fahrenheit
