@@ -60,9 +60,30 @@ calcularPorcentagem(100, 20);
 
 // 8 Calcular a soma dos números impares maiores que 10 e menores que 30
 
+var soma = 0;
+for(var i = 11; i < 30; i++){
+	if(i % 2 != 0){
+		console.log(i);
+		soma = soma + i;
+	}
+}
+console.log("A soma dos números impares maiores que 10 e menores que 30 é igual a " + soma + ".");
+
 // 9 Criar uma função que converta uma temperatura de Celsius para Fahrenheit
 
+function converterCelsiusParaFahrenheit(temperatura){
+	let resultado = temperatura * 1.8 + 32;
+	console.log(resultado);
+}
+converterCelsiusParaFahrenheit();
+
 // 10 Criar uma função que converta uma temperatura de Fahrenheit para Celsius
+
+function converterFahrenheitParaCelsius(temperatura){
+	let converter = ((temperatura - 32)*(5/9));
+	console.log(converter.toFixed(2));
+}
+converterFahrenheitParaCelsius();
 
 // 11 Calcular a soma dos números de um array
 
