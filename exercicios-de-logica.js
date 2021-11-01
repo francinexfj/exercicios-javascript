@@ -87,10 +87,41 @@ converterFahrenheitParaCelsius();
 
 // 11 Calcular a soma dos números de um array
 
+var array = [1,2,3,4];
+var soma = 0;
+
+for(var i=0; i < array.length; i++){
+	soma += array[i];
+}
+console.log("A soma dos número do array é " + soma);
+
 // 12 Calcular a média de todos os números de um array
+
+var array = [1,2,3,6];
+var media = 0;
+var soma = 0;
+for(var i=0; i < array.length; i++){
+	soma += array[i];
+}
+media = soma / array.length;
+console.log(media);
 
 // 13 Criar uma função que receba como parâmetro um array de números e retorne um array
 // contendo somente números positivos.
+
+function numerosPositivos(array){
+	novoArray = [];
+	array = array;
+	for(var i=0; i < array.length; i++){
+		if(array[i] % 2 == 0){
+			novoArray.push(array[i]);
+		}
+	}
+	return novoArray;
+}
+console.log(numerosPositivos([1,2,3,4]));
+
+
 
 // 14 Localizar o maior valor dentro de um array de números
 
