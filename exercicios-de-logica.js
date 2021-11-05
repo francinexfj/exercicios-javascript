@@ -125,6 +125,15 @@ console.log(numerosPositivos([1,2,3,4]));
 
 // 14 Localizar o maior valor dentro de um array de números
 
+var maior = 0;
+var array = [1,2,3,4,5,6,7,8,9,10,11,12,13];
+for(var i = 0; i < array.length; i++){
+	if(array[i] > maior){
+		maior = array[i]
+	}
+}
+console.log("O maior é o número " + maior);
+
 // 15 Calcular a soma de todos os dígitos de um número inteiro positivo
 
 // 16 Imprimir os 10 primeiros números da sequência de Fibonacci sem usar recursividade
