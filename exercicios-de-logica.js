@@ -136,6 +136,14 @@ console.log("O maior é o número " + maior);
 
 // 15 Calcular a soma de todos os dígitos de um número inteiro positivo
 
+var numero = "1234";
+var soma = 0;
+for(var i=0;i<numero.length;i++){
+	soma += parseInt(numero[i]);
+}
+console.log(soma);
+
+
 // 16 Imprimir os 10 primeiros números da sequência de Fibonacci sem usar recursividade
 // A sequência de Fibonacci é composta por uma sucessão de números descrita pelo famoso
 // matemático italiano Leonardo de Pisa (1170-1250), mais conhecido como Fibonacci, no final do
