@@ -122,7 +122,6 @@ function numerosPositivos(array){
 console.log(numerosPositivos([1,2,3,4]));
 
 
-
 // 14 Localizar o maior valor dentro de um array de números
 
 var maior = 0;
@@ -145,12 +144,6 @@ console.log(soma);
 
 
 // 16 Imprimir os 10 primeiros números da sequência de Fibonacci sem usar recursividade
-// A sequência de Fibonacci é composta por uma sucessão de números descrita pelo famoso
-// matemático italiano Leonardo de Pisa (1170-1250), mais conhecido como Fibonacci, no final do
-// século 12. O matemático percebeu uma regularidade matemática a partir de um problema
-// criado por ele mesmo. Além disso, quando esses números são transformados em quadrados e
-// dispostos de maneira geométrica, é possível traçar uma espiral, que curiosamente também
-// pode ser vista em muitos fenômenos naturais.
 // A fórmula usada para calcular a sequência de Fibonacci é a seguinte:
 // Fn = Fn - 1 + Fn - 2
 // (Fn = Fator numeral)
